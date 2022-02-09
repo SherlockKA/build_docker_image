@@ -18,7 +18,7 @@ if __name__ == "__main__":
 
 	parse_request = lambda request: ast.literal_eval(request.text)
 
-	# Load Dockerfile and convert into b64encode
+	# Load Dockerfile and convert into base64 string
 	data = {'docker_file': base64.b64encode(open('Dockerfile','rb').read())}
 
 	# Send {builDocker} request
