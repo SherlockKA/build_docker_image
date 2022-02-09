@@ -17,7 +17,7 @@ class BuildDocker(Resource):
 		# Parse args
 		args = self.args.parse_args()
 
-		# Convert str to b64decode
+		# Convert base64 string to byte array  
 		docker_file = base64.b64decode(args["docker_file"])
 		
 		# Create empty row in db
