@@ -1,5 +1,5 @@
 ### These steps help you to reproduce the code test<br>
-**1. Create venv environment**
+**1. Clone project**
 ```
 git clone https://github.com/SherlockKA/build_docker_image.git
 ```
